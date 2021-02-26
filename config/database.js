@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'cluster-sg-1-shard-00-01.5mn4z.mongodb.net'),
         srv: env.bool('DATABASE_SRV', false),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'blogs'),
+        database: env('DATABASE_NAME', 'blog'),
         username: env('DATABASE_USERNAME', 'phonelah'),
         password: env('DATABASE_PASSWORD', 'Kopigao0!'),
       },
