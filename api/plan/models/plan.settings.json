@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "name": "Plan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "telco": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "planprice": {
+      "type": "decimal"
+    },
+    "deliveryfee": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
+    },
+    "image7": {
+      "type": "string"
+    },
+    "image8": {
+      "type": "string"
+    },
+    "image9": {
+      "type": "string"
+    }
+  }
+}

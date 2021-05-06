@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "sell_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "phonename": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "string"
+    },
+    "colour": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "imei": {
+      "type": "string"
+    },
+    "revisedprice": {
+      "type": "integer"
+    },
+    "listingprice": {
+      "type": "integer"
+    },
+    "originalprice": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "warranty1mth": {
+      "type": "integer"
+    },
+    "warranty6mth": {
+      "type": "integer"
+    },
+    "warranty12mth": {
+      "type": "integer"
+    },
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
+    },
+    "image7": {
+      "type": "string"
+    },
+    "image8": {
+      "type": "string"
+    },
+    "image9": {
+      "type": "string"
+    },
+    "screensize": {
+      "type": "string"
+    },
+    "maincamera": {
+      "type": "string"
+    },
+    "batterycapacity": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "wirelesscharging": {
+      "type": "string"
+    },
+    "usbport": {
+      "type": "string"
+    },
+    "audiojack": {
+      "type": "string"
+    },
+    "cardslot": {
+      "type": "string"
+    },
+    "nfc": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sells",
+  "info": {
+    "name": "Sell",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "sell_id": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contactnumber": {
+      "type": "integer"
+    },
+    "collectionaddress": {
+      "type": "string"
+    },
+    "collectiondatetime": {
+      "type": "string"
+    },
+    "phonename": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "inputprice": {
+      "type": "integer"
+    },
+    "revisedprice": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "paynowid": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
+    },
+    "image7": {
+      "type": "string"
+    },
+    "image8": {
+      "type": "string"
+    },
+    "image9": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    }
+  }
+}

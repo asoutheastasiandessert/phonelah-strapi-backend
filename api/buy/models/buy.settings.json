@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buys",
+  "info": {
+    "name": "Buy",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "buy_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "productsordered": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "contactnumber": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    },
+    "deliveryaddress": {
+      "type": "string"
+    },
+    "timeslot": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "paymentamount": {
+      "type": "integer"
+    },
+    "paymentmethod": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

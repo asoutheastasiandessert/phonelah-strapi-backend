@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caseorders",
+  "info": {
+    "name": "Caseorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "thickcase_id": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "contactnumber": {
+      "type": "biginteger"
+    },
+    "deliveryaddress": {
+      "type": "string"
+    },
+    "deliverydatetime": {
+      "type": "string"
+    },
+    "deliveryman": {
+      "type": "string"
+    },
+    "phonename": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "paymentmethod": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "pricepaid": {
+      "type": "integer"
+    },
+    "casematerial": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "textinput": {
+      "type": "string"
+    }
+  }
+}

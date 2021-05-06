@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thickcases",
+  "info": {
+    "name": "Thickcase",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "phonename": {
+      "type": "string"
+    },
+    "casematerial": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "textinput": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "offerprice": {
+      "type": "integer"
+    },
+    "retailprice": {
+      "type": "integer"
+    },
+    "fontcolor": {
+      "type": "string"
+    },
+    "textposition": {
+      "type": "string"
+    },
+    "fontfamily": {
+      "type": "string"
+    },
+    "fontsize": {
+      "type": "string"
+    },
+    "artistname": {
+      "type": "string"
+    }
+  }
+}

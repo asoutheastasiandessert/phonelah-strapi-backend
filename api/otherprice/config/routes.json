@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otherprices",
+      "handler": "otherprice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otherprices/count",
+      "handler": "otherprice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otherprices/:id",
+      "handler": "otherprice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/otherprices",
+      "handler": "otherprice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otherprices/:id",
+      "handler": "otherprice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otherprices/:id",
+      "handler": "otherprice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

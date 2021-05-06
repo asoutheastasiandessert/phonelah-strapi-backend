@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "references",
+  "info": {
+    "name": "Reference",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "phonename": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "string"
+    },
+    "averageprice": {
+      "type": "integer"
+    },
+    "newprice": {
+      "type": "integer"
+    },
+    "lowestprice": {
+      "type": "integer"
+    },
+    "recentprice": {
+      "type": "integer"
+    },
+    "dealerprice": {
+      "type": "integer"
+    },
+    "launchprice": {
+      "type": "integer"
+    },
+    "launchdate": {
+      "type": "date"
+    },
+    "image1": {
+      "type": "string"
+    },
+    "screensize": {
+      "type": "string"
+    },
+    "maincamera": {
+      "type": "string"
+    },
+    "batterycapacity": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "wirelesscharging": {
+      "type": "string"
+    },
+    "usbport": {
+      "type": "string"
+    },
+    "audiojack": {
+      "type": "string"
+    },
+    "cardslot": {
+      "type": "string"
+    },
+    "nfc": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    }
+  }
+}

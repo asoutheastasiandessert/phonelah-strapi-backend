@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "connects",
+  "info": {
+    "name": "Connect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "connect_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "contactnumber": {
+      "type": "integer"
+    },
+    "nric": {
+      "type": "string"
+    },
+    "deliveryaddress": {
+      "type": "string"
+    },
+    "paymentmethod": {
+      "type": "string"
+    },
+    "paymentamount": {
+      "type": "decimal"
+    },
+    "note": {
+      "type": "string"
+    },
+    "selfcollect": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "timeslot": {
+      "type": "string"
+    },
+    "allocatedphonenumber": {
+      "type": "integer"
+    }
+  }
+}

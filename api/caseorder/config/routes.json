@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/caseorders",
+      "handler": "caseorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/caseorders/count",
+      "handler": "caseorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/caseorders/:id",
+      "handler": "caseorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/caseorders",
+      "handler": "caseorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/caseorders/:id",
+      "handler": "caseorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/caseorders/:id",
+      "handler": "caseorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

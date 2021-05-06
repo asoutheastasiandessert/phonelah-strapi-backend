@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "protects",
+  "info": {
+    "name": "Protect",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "protect_id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contactnumber": {
+      "type": "integer"
+    },
+    "installaddress": {
+      "type": "string"
+    },
+    "installdatetime": {
+      "type": "string"
+    },
+    "phonename": {
+      "type": "string"
+    },
+    "item": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "paymentmethod": {
+      "type": "string"
+    },
+    "protectnote": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "claimcontactnumber": {
+      "type": "integer"
+    },
+    "claimitem": {
+      "type": "string"
+    },
+    "claimtimeslot": {
+      "type": "string"
+    },
+    "claimcount": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otherprices",
+  "info": {
+    "name": "Otherprice",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "phonename": {
+      "type": "string"
+    },
+    "itemcategory": {
+      "type": "string"
+    },
+    "variation1": {
+      "type": "string"
+    },
+    "variation2": {
+      "type": "string"
+    },
+    "itembrand": {
+      "type": "string"
+    },
+    "itemdescription": {
+      "type": "string"
+    },
+    "badge1": {
+      "type": "string"
+    },
+    "badge2": {
+      "type": "string"
+    },
+    "itemimage": {
+      "type": "string"
+    },
+    "offerprice": {
+      "type": "integer"
+    },
+    "retailprice": {
+      "type": "integer"
+    },
+    "carouselimage1": {
+      "type": "string"
+    },
+    "carouselimage2": {
+      "type": "string"
+    },
+    "carouselimage3": {
+      "type": "string"
+    },
+    "carouselimage4": {
+      "type": "string"
+    },
+    "carouselimage5": {
+      "type": "string"
+    },
+    "carouselimage6": {
+      "type": "string"
+    },
+    "carouselimage7": {
+      "type": "string"
+    },
+    "carouselimage8": {
+      "type": "string"
+    },
+    "carouselimage9": {
+      "type": "string"
+    }
+  }
+}

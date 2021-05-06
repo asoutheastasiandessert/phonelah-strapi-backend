@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thickcases",
+      "handler": "thickcase.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thickcases/count",
+      "handler": "thickcase.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thickcases/:id",
+      "handler": "thickcase.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thickcases",
+      "handler": "thickcase.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thickcases/:id",
+      "handler": "thickcase.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thickcases/:id",
+      "handler": "thickcase.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

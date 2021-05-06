@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "numbers",
+  "info": {
+    "name": "Number"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "zero1": {
+      "type": "biginteger"
+    },
+    "status_zero1": {
+      "type": "string"
+    },
+    "redone": {
+      "type": "biginteger"
+    },
+    "status_redone": {
+      "type": "string"
+    },
+    "singtel": {
+      "type": "biginteger"
+    },
+    "status_singtel": {
+      "type": "string"
+    }
+  }
+}
