@@ -2,8 +2,8 @@ let password = "Kopigao0!"
 module.exports = {
   apps: [
     {
-      name: 'strapi',
-      cwd: '/home/ec2-user/environment/blog-strapi/backend',
+      name: 'phonelah strapi',
+      cwd: '/home/ec2-user/environment/phonelah-strapi/backend',
       script: 'npm',
       // from this
       args: 'start',
